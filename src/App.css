@@ -1,38 +1,210 @@
-.App {
-  text-align: center;
+body{
+  background-color: #ffffff;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color:rgb(255, 255, 239);
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link{
+  padding: 20px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #381905;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  
 }
+.logo{
+  margin-left: -150px;
+  border-radius: 50%;
+  width: 90px; 
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.first-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 150px;
+    
+}
+.cont-about{
+  display: flex;
+  justify-content: center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.about-info{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+.cont-benefits{
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  flex-grow: 1;
+  
+}
+.info-benefits{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 8px;
+  background-color: rgb(122, 151, 0, 0.4);
+  margin: 10px;
+}
+.pic-about{
+  width: 800px;
+  height: 70vh;
+}
+.benef-pic{
+  width: 400px;
+  height: 45vh;
+}
+.par-benefits{
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+  margin: 15px 1em 0 1em;
+}
+.header{
+ font-size: 45px;
+ color: white;
+ letter-spacing: 2px;
+ width: 50%;
+}
+.par-first{
+ text-align: center;
+ color: white;
+ font-size: 22px;
+ width: 50%;
+
+}
+.cont-catalog{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 26%;
+
+}
+.catalog-info{
+  font-family: 'Quicksand', sans-serif;
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  
+}
+.cont-header{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.cont-btn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.button{
+  padding: 10px;
+  margin: 15px;
+  background-color:#381905;
+  color:#f1f1f1;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px #7d4420;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-first, .btn-about{
+  width: 30%;
+  margin-left: 100px;
+  padding: 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: #7a9700;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px #f1f1f1;
+  cursor: pointer;
+}
+.btn-about{
+  width: 10%;
+  box-shadow: 2px 2px 4px gray;
+  margin: 40px;
+}
+.btn-catalog{
+  position: relative;
+  padding: 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: #7a9700;
+  top: -100px;
+  left: -40px;
+  border: none;
+  box-shadow: 2px 2px 4px #5a831b;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.btn-benefits{
+  border: none;
+  padding: 3px;
+  background-color: rgb(122, 151, 0, 0.8);
+  cursor: pointer;
+  font-size: 15px;
+  color:#ffffff;
+}
+.catalogPic {
+  width: 80%;
+  height: 40vh;
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px #7a9700;
+}
+.firstPic{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0; 
+  
+}
+h1{
+  text-align: center;
+  color: #7d4420;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #7a9700;
+  
+}
+h2{
+  text-align: center;
+  color: #381905;
+  font-family: 'Quicksand', sans-serif;
+}
+h3{
+  font-size: 25px;
+  color:#381905;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 1px 2px 2px #7a9700;
+}
+h4{
+  font-size: 20px;
+  color:#381905;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+p{
+  color:#381905;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
